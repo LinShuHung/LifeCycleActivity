@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page3Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page3"
+        android:textSize="48sp"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/lotteryPage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:gravity="center_horizontal"
+        android:background="#ff0"
+        />
+
+    <Button
+        android:id="@+id/goToPage2NoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GotoPage2NoData"
+        android:onClick="goToPage2NoData"
+        />
+    <Button
+        android:id="@+id/goToPage2WithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GotoPage2WithData"
+        android:onClick="goToPage2WithData"
+        />
+
+</LinearLayout>

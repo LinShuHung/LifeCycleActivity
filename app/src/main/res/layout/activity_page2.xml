@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Page2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page2"
+        android:textSize="48sp"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/lotteryPage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:gravity="center_horizontal"
+        android:background="#0f0"
+        />
+
+    <Button
+        android:id="@+id/goToPage3NoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GotoPage3NoData"
+        android:onClick="goToPage3NoData"
+        />
+    <Button
+        android:id="@+id/goToPage3WithData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GotoPage3WithData"
+        android:onClick="goToPage3WithData"
+        />
+    <Button
+        android:id="@+id/goBackMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GoBackMain"
+        android:onClick="goBackMain"
+        />
+    <TextView
+        android:id="@+id/dataFromPage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="48sp"
+        android:gravity="center_horizontal"
+        android:background="#0f0"
+        />
+</LinearLayout>
